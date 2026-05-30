@@ -9,6 +9,7 @@ The objective of this project was to simulate a real-world IT infrastructure env
 ---
 
 ## Lab Architecture
+![IPCONFIG](screenshots/DC1/SCOPE_FOR_DHCP.png)
 
 
 ---
