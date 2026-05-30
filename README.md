@@ -10,7 +10,7 @@ The objective of this project was to simulate a real-world IT infrastructure env
 
 ## Lab Architecture
 
-```text
+
 Dell PowerEdge R720
 │
 ├── DC1 (Windows Server 2022)
@@ -29,7 +29,7 @@ Dell PowerEdge R720
         ├── Domain Joined
         ├── DNS Resolution
         └── IP Address: 192.168.2.200
-```
+
 
 ---
 
