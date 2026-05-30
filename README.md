@@ -32,6 +32,29 @@ Dell PowerEdge R720
         └── IP Address: 192.168.2.200
 
 ```
+
+## Lab Architecture
+
+Dell PowerEdge R720
+
+├── DC1 (Windows Server 2022)
+│   ├── Active Directory Domain Services
+│   ├── DNS Server
+│   ├── Hyper-V Host
+│   └── IP Address: 192.168.2.194
+│
+└── NestedHostVM (Windows 11)
+    ├── Hyper-V Enabled
+    ├── Domain Joined
+    ├── IP Address: 192.168.2.196
+    │
+    └── Win11-Lab (Windows 11)
+        ├── Nested Virtual Machine
+        ├── Domain Joined
+        ├── DNS Resolution
+        └── IP Address: 192.168.2.200
+
+
 ---
 
 ## Technologies Used
