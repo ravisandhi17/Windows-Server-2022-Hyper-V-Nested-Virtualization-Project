@@ -10,6 +10,7 @@ The objective of this project was to simulate a real-world IT infrastructure env
 
 ## Lab Architecture
 
+```text
 
 Dell PowerEdge R720
 │
@@ -30,7 +31,7 @@ Dell PowerEdge R720
         ├── DNS Resolution
         └── IP Address: 192.168.2.200
 
-
+```
 ---
 
 ## Technologies Used
