@@ -57,7 +57,7 @@ The objective of this project was to simulate a real-world IT infrastructure env
 
 ## Hyper-V Configuration
 
-![IPCONFIG](screenshots/DC1/09-NestedHostVM-HyperV-Manager.png)
+![IPCONFIG](screenshots/NestedHostVM/09-NestedHostVM-HyperV-Manager.png)
 
 ### DC1 Hyper-V Host
 
@@ -71,7 +71,7 @@ The objective of this project was to simulate a real-world IT infrastructure env
 
 ![IPCONFIG](screenshots/DC1/Hyper-V-Virtual-Machine-Status.png)
 
-![IPCONFIG](screenshots/DC1/Nested-Hyper-V-Virtual-Machine-Running-Inside-NestedHostVM.png)
+![IPCONFIG](screenshots/NestedHostVM/Nested-Hyper-V-Virtual-Machine-Running-Inside-NestedHostVM.png)
 
 
 ### Nested Hyper-V Host
@@ -150,7 +150,7 @@ systeminfo | findstr /B /C:"Domain"
 
 ![IPCONFIG](screenshots/Win11-Lab/ping94-from-win11-lab.png)
 
-![IPCONFIG](screenshots/Win11-Lab/ping96-98-from-dc1.png)
+![IPCONFIG](screenshots/NestedHostVM/ping96-98-from-dc1.png)
 
 ---
 
