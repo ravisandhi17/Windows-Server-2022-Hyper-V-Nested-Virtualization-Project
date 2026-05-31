@@ -156,29 +156,9 @@ systeminfo | findstr /B /C:"Domain"
 
 ---
 
-## Screenshots
 
-### Hyper-V Configuration
 
-* 01-DC1-Get-VMSwitch.png
-* 02-DC1-Get-VM.png
-* 03-NestedHostVM-Get-VM.png
 
-### Network Configuration
-
-* 04-DC1-IPConfig-All.png
-* 05-NestedHostVM-IPConfig-All.png
-* 06-Win11-Lab-IPConfig-All.png
-
-### Domain Services
-
-* 07-Win11-Lab-NSLookup-Domain.png
-* 08-Win11-Lab-Domain-Membership.png
-* 09-NestedHostVM-HyperV-Manager.png
-* 10A-DC1-Domain-Controllers-OU.png
-* 10B-DC1-Domain-Joined-Computers.png
-
----
 
 ## Skills Demonstrated
 
