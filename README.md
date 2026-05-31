@@ -147,6 +147,8 @@ systeminfo | findstr /B /C:"Domain"
 
 * DC1 ↔ NestedHostVM
 
+![IPCONFIG](screenshots/NestedHostVM/ping96-98-from-dc1.png)
+
 ![IPCONFIG](screenshots/NestedHostVM/nestedhostvm-to-dc1.png)
 
 * NestedHostVM ↔ Win11-Lab
@@ -158,7 +160,7 @@ systeminfo | findstr /B /C:"Domain"
 
 
 
-![IPCONFIG](screenshots/NestedHostVM/ping96-98-from-dc1.png)
+
 
 ![IPCONFIG](screenshots/NestedHostVM/ping-from-dc1-to-win11-lab.png)
 
