@@ -82,6 +82,8 @@ The objective of this project was to simulate a real-world IT infrastructure env
 | Nested VM       | Win11-Lab     |
 | Virtual Switch  | LabSwitch     |
 
+![IPCONFIG](screenshots/NestedHostVM/09-NestedHostVM-LabSwitch-Verification.png)
+
 ---
 
 ## Networking Configuration
