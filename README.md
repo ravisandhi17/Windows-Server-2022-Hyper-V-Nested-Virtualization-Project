@@ -152,6 +152,9 @@ systeminfo | findstr /B /C:"Domain"
 ![IPCONFIG](screenshots/NestedHostVM/nestedhostvm-to-dc1.png)
 
 * NestedHostVM ↔ Win11-Lab
+
+![IPCONFIG](screenshots/NestedHostVM/nestedhostvm-to-win11-lab.png)
+
   
 * Win11-Lab ↔ DC1
 
