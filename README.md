@@ -152,6 +152,8 @@ systeminfo | findstr /B /C:"Domain"
 
 ![IPCONFIG](screenshots/Win11-Lab/ping94-from-win11-lab.png)
 
+![IPCONFIG](screenshots/NestedHostVM/nestedhostvm-to-dc1.png)
+
 ![IPCONFIG](screenshots/NestedHostVM/ping96-98-from-dc1.png)
 
 ![IPCONFIG](screenshots/NestedHostVM/ping-from-dc1-to-win11-lab.png)
