@@ -9,7 +9,7 @@ The objective of this project was to simulate a real-world IT infrastructure env
 ---
 
 ## Lab Architecture
-![IPCONFIG](screenshots/DC1/SCOPE_FOR_DHCP.png)
+![IPCONFIG](screenshots/DC1/architecture.png)
 
 
 ---
@@ -50,9 +50,14 @@ The objective of this project was to simulate a real-world IT infrastructure env
 * HYPER-V-PC (NestedHostVM)
 * DESKTOP-V8S8OM4 (Win11-Lab)
 
+![IPCONFIG](screenshots/DC1/10-DC1-Active-Directory-Computers.png)
+
+
 ---
 
 ## Hyper-V Configuration
+
+![IPCONFIG](screenshots/DC1/09-NestedHostVM-HyperV-Manager.png)
 
 ### DC1 Hyper-V Host
 
@@ -61,6 +66,13 @@ The objective of this project was to simulate a real-world IT infrastructure env
 | Hyper-V Switch | ExternalSwitch |
 | VM             | NestedHostVM   |
 | VM State       | Running        |
+
+![IPCONFIG](screenshots/DC1/Hyper-V-External-Virtual-Switch-Configuration.png)
+
+![IPCONFIG](screenshots/DC1/Hyper-V-Virtual-Machine-Status.png)
+
+![IPCONFIG](screenshots/DC1/Nested-Hyper-V-Virtual-Machine-Running-Inside-NestedHostVM.png)
+
 
 ### Nested Hyper-V Host
 
@@ -82,6 +94,9 @@ The objective of this project was to simulate a real-world IT infrastructure env
 | DNS Server | 192.168.2.194 |
 | Gateway    | 192.168.2.1   |
 
+![IPCONFIG](screenshots/DC1/04-DC1-IPConfig-All.png)
+
+
 ### NestedHostVM
 
 | Setting      | Value         |
@@ -90,6 +105,9 @@ The objective of this project was to simulate a real-world IT infrastructure env
 | DNS Server   | 192.168.2.194 |
 | LabSwitch IP | 192.168.2.198 |
 
+![IPCONFIG](screenshots/NestedHostVM/05-NestedHostVM-IPConfig-All.png)
+
+
 ### Win11-Lab
 
 | Setting    | Value           |
@@ -97,6 +115,9 @@ The objective of this project was to simulate a real-world IT infrastructure env
 | IP Address | 192.168.2.200   |
 | DNS Server | 192.168.2.194   |
 | Domain     | ravikumar.local |
+
+
+![IPCONFIG](screenshots/Win11-Lab/06-Win11-Lab-IPConfig-All.png)
 
 ---
 
@@ -107,6 +128,7 @@ The objective of this project was to simulate a real-world IT infrastructure env
 
 nslookup ravikumar.local
 
+![IPCONFIG](screenshots/Win11-Lab/07-Win11-Lab-NSLookup-Domain.png)
 
 
 
@@ -115,6 +137,7 @@ nslookup ravikumar.local
 
 systeminfo | findstr /B /C:"Domain"
 
+![IPCONFIG](screenshots/Win11-Lab/08-Win11-Lab-Domain-Membership.png)
 
 
 
@@ -123,7 +146,11 @@ systeminfo | findstr /B /C:"Domain"
 * DC1 ↔ NestedHostVM
 * NestedHostVM ↔ Win11-Lab
 * Win11-Lab ↔ DC1
-* DNS Resolution Successful
+
+
+![IPCONFIG](screenshots/Win11-Lab/ping94-from-win11-lab.png)
+
+![IPCONFIG](screenshots/Win11-Lab/ping96-98-from-dc1.png)
 
 ---
 
