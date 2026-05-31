@@ -146,13 +146,17 @@ systeminfo | findstr /B /C:"Domain"
 ### Connectivity Testing
 
 * DC1 ↔ NestedHostVM
+
+![IPCONFIG](screenshots/NestedHostVM/nestedhostvm-to-dc1.png)
+
 * NestedHostVM ↔ Win11-Lab
+  
 * Win11-Lab ↔ DC1
 
 
 ![IPCONFIG](screenshots/Win11-Lab/ping94-from-win11-lab.png)
 
-![IPCONFIG](screenshots/NestedHostVM/nestedhostvm-to-dc1.png)
+
 
 ![IPCONFIG](screenshots/NestedHostVM/ping96-98-from-dc1.png)
 
